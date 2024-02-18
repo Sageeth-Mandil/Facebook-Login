@@ -53,3 +53,13 @@
 }
 
 
+
+#facebook-text{
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+}

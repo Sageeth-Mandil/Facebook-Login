@@ -11,8 +11,8 @@ export default function Login(){
     };
 
     return (
-        <div className="full-height d-flex justify-content-center align-items-center bg-body-secondary">
-            <Container>
+        <div className="full-height d-flex justify-content-center align-items-center bg-body-secondary" style={{padding: "80px 0"}}>
+            <Container >
                 <div className="card p-4" style={{background: "none", border: "none", boxShadow: "none", borderRadius: "none", alignItems: "center"}}>
                     <img
                         style={{margin: "-44px 0 -4px 0", width: "240px", border: "0"}}
@@ -22,11 +22,11 @@ export default function Login(){
                     />
                 </div>
                 
-                <div className="row justify-content-center"style={{alignItems: "center"}}>
+                <div className="row justify-content-center" style={{alignItems: "center"}}>
                     <div className="col-lg-6">
-                        <div className="card p-4" style={{borderRadius: "8px", boxShadow: "0 2px 4px rgba(0, 0, 0, .1) 0 8px 16px rgba(0, 0, 0, .1)", margin:"auto", padding: "0 0 14px 0", width: "396px"}}>
+                        <div className="card p-4" >
 
-                            <h2 className="text-center mb-4" style={{fontSize: "18px", lineHeight: "22px"}}>Log in to Facebook</h2>
+                            <h2 className="text-center mb-4">Log in to Facebook</h2>
 
                             <Form onSubmit={handleLogin}>
                                 <Form.Group controlId="formBasicEmail">
@@ -48,12 +48,13 @@ export default function Login(){
                                 </Form.Group>
 
                                 <Button
-                                variant="primary"
-                                type="submit"
-                                // block
-                                className="login-button"
-                                >
-                                Log In
+                                    style={{cursor: "pointer", display: "inline-block", textDecoration: "none", whiteSpace: "nowrap", position: "relative", textAlign: "center", textShadow: "none", verticalAlign: "middle"}}
+                                    variant="primary"
+                                    type="submit"
+                                    className="login-button"
+                                    id="facebook-text">
+                                        
+                                    Log In
                                 </Button>
                             </Form>
                             <div className="text-center mt-3">
@@ -65,7 +66,7 @@ export default function Login(){
                                 </a>{" "}
                                 &middot;{" "}
                                 <a href="/reg/" className="create-account-link">
-                                Sign up for Facebook
+                                    Sign up for Facebook
                                 </a>
                             </div>
                         </div>
