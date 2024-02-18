@@ -1,0 +1,55 @@
+/* FacebookLoginForm.css */
+
+/* Adjusting input field styles */
+.input-field {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+}
+
+/* Styling the login button */
+.login-button {
+    padding: 10px;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+/* Styling the forgot password and create account links */
+.forgot-password-link,
+.create-account-link {
+    color: #1877f2;
+    text-decoration: none;
+}
+
+.forgot-password-link:hover,
+.create-account-link:hover {
+    text-decoration: underline;
+}
+
+/* Card style */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Centering elements */
+.full-height {
+    height: 100vh;
+}
+
+.picture{
+    margin: -44px 0 -4px 0;
+    width: 240px;
+}
+
+
+.cl {
+    padding: 80px 0;
+}
+
+
